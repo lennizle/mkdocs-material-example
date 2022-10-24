@@ -1,4 +1,9 @@
 site_name: My Docs
+## Repository
+repo_name: Test
+repo_url: 
+edit_uri:  #disables edit button
+docs_dir: docs
 
 theme:
   name: material
@@ -8,3 +13,6 @@ extra:
   version:
     provider: mike
     default: latest
+
+plugins:
+  - search
